@@ -2,7 +2,7 @@
 This app uses [OpenWeatherMap](https://openweathermap.org/) to fetch weather data.
 ```
 Current     'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_token}'
-Forecast    'http://api.openweathermap.org/data/2.5/forecast/daily?q={city}&cnt={days_count}&appid={api_token}'
+Forecast    'http://api.openweathermap.org/data/2.5/forecast?daily?q={city}&cnt={days_count}&appid={api_token}'
 ```
 
 ## Techniques you will need
