@@ -14,6 +14,7 @@ Forecast    'http://api.openweathermap.org/data/2.5/forecast?q={city}&cnt={days_
 ## Study project
 0. Go to open weather map, create a user and API token. Explore the different APIs.
 1. Copy the contents of `.env.dev` file into a new file named `.env`, create and fill in the missing API token.
+1a. **If you are a beginner**, it is suggested that you go through the tutorial in `get_started.py` before continuing with the rest of the steps.
 2. Create a python 3 virtualenv and install reqirements from `requirements.txt`.
 3. Current weather:
 * Prompt the user for a city name and fetch the current weather data using the current weather URL.
