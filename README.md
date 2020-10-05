@@ -2,7 +2,7 @@
 This app uses [OpenWeatherMap](https://openweathermap.org/) to fetch weather data.
 ```
 Current     'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_token}'
-Forecast    'http://api.openweathermap.org/data/2.5/forecast/daily?q={city}&cnt={days_count}&appid={api_token}'
+Forecast    'http://api.openweathermap.org/data/2.5/forecast?q={city}&cnt={days_count}&appid={api_token}'
 ```
 
 ## Techniques you will need
@@ -14,6 +14,7 @@ Forecast    'http://api.openweathermap.org/data/2.5/forecast/daily?q={city}&cnt=
 ## Study project
 0. Go to open weather map, create a user and API token. Explore the different APIs.
 1. Copy the contents of `.env.dev` file into a new file named `.env`, create and fill in the missing API token.
+1a. **If you are a beginner**, it is suggested that you go through the tutorial in `get_started.py` before continuing with the rest of the steps.
 2. Create a python 3 virtualenv and install reqirements from `requirements.txt`.
 3. Current weather:
 * Prompt the user for a city name and fetch the current weather data using the current weather URL.
