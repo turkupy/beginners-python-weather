@@ -4,7 +4,7 @@ https://docs.python.org/3/library/venv.html
 https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment
 
 
-## Why virtual environment?
+## Why to use virtual environment?
 To isolate environment from the global environments and having same Python pip libraries as the project obtains is what venv is mainly used for. 
 Sometimes the project may require specific libraries to work as syntax of the libraries may change or they are depended on another older libraries.
 
@@ -21,6 +21,7 @@ Note 2: first venv = the command & later venv = the environment name
 ### Windows
 
 **Command Prompt:**
+
 Create a venv
 ```
 py -m venv venv
@@ -39,6 +40,7 @@ RMDIR /Q/S venv
 ```
 
 **Powershell:** 
+
 Create a venv
 ```
 py -m venv venv
@@ -57,6 +59,7 @@ Remove-Item venv -Recurse
 ```
 
 **Git Bash:**
+
 Create a venv
 ```
 python -m venv venv
@@ -74,6 +77,7 @@ Delete venv
 rm -rf venv
 ```
 ### Mac/Linux
+
 Create a venv
 ```
 python3 -m venv venv
