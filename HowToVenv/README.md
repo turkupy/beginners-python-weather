@@ -95,9 +95,14 @@ Delete venv
 rm -rf venv
 ```
 
-Commonly `requirements.txt` is used for libraries for virtual environment. When creating a new venv, the libraries needed for the project are needed to be installed with following:
+### Install libraries from requirements.txt
+
+Commonly `requirements.txt` is used for listing needed libraries and versions for the projectvirtual environment. When creating a new venv, the libraries needed for the project are needed to be installed with following:
 
 Windows:
+
 `pip install -r requirements.txt`
+
 Mac/Linux:
+
 `pip3 install -r requirements.txt`
