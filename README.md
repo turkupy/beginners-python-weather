@@ -10,6 +10,7 @@ Forecast    'http://api.openweathermap.org/data/2.5/forecast?q={city}&cnt={days_
 * Format strings using [f-strings](https://realpython.com/python-f-strings/#f-strings-a-new-and-improved-way-to-format-strings-in-python)
 * Use [urllib](https://docs.python.org/3/howto/urllib2.html) to make requests to the API
 * Create a [virtualenv](https://docs.python.org/3/library/venv.html) for managing dependencies
+
 More examples [here](/HowToVenv)
 
 ## Study project
