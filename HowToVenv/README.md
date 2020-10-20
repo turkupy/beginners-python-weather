@@ -10,6 +10,7 @@ Sometimes the project may require specific libraries to work as syntax of the li
 
 Below in the picture the first pip3 freeze shows the pip libraries in the virtualenvironment scope. 
 Next, when deactivating the virtual environment, the global pip libraries of the system is a looong list of different library versions. 
+
 ![Virtualenv differences](virtualenv-diff.png)
 
 ## Commands to run virtual environments
