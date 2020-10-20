@@ -17,6 +17,7 @@ Next, when deactivating the virtual environment, the global pip libraries of the
 Note: It's easiest to be in the main folder to do the commands -> /beginners-python-weather
 
 Note 2: first venv = the command & later venv = the environment name
+
 `py/python3 -m venv(command) venv(name)`
 
 ### Windows
