@@ -1,0 +1,19 @@
+<!DOCTYPE html lang="en">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Twig Weather App</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}" >
+    </head>
+    <body>
+        <h1>Get the Weather!</h1>
+        <p>Find the current weather.</p>
+        <form method="POST">
+            <p>
+                <input autocomplete="off" type="submit" />
+                <input name="text" />
+            </p>
+        </form>
+        <h4>{{ result }}</h4>
+    </body>
+</html>
