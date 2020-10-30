@@ -22,3 +22,6 @@ Forecast    'http://api.openweathermap.org/data/2.5/forecast?q={city}&cnt={days_
 * Make a function that converts temperatures from kelvin to celsius
 4. Weather forecast:
 * Prompt the user for a city name and a count of days and fetch the weather forecast using the forecast URL.
+
+## Flask
+0. Run `myapp.py` to run the Flask app.
