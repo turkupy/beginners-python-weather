@@ -9,7 +9,7 @@ Forecast    'http://api.openweathermap.org/data/2.5/forecast?q={city}&cnt={days_
 * Define and call a [function](https://www.w3schools.com/python/python_functions.asp)
 * Format strings using [f-strings](https://realpython.com/python-f-strings/#f-strings-a-new-and-improved-way-to-format-strings-in-python)
 * Use [urllib](https://docs.python.org/3/howto/urllib2.html) to make requests to the API
-* Create a [virtualenv](https://docs.python.org/3/library/venv.html) for managing dependencies
+* Create a [virtualenv](https://docs.python.org/3/library/venv.html) for managing dependencies // More virtual environment examples [here](/HowToVenv)
 
 ## Study project
 0. Go to open weather map, create a user and API token. Explore the different APIs.
