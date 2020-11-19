@@ -1,7 +1,16 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e8e8e8;
+}
+
 h1 {
-    color: green;
+    color: #30475e;
 }
 
 p {
-    color: hotpink;
+    color: #222831;
+}
+
+#form {
+    border: none;
 }
